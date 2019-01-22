@@ -1,1 +1,1 @@
-scrip
+console.log("NOTREALLY")
