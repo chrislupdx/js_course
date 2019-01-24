@@ -85,3 +85,27 @@ var ageJohn = now - yearJohn;
 var ageMark = 4;
 var average = (ageJohn + ageMark ) / 2;
 console.log(average)
+
+
+// Multiple assignment
+
+var x, y;
+x = (3 + 5) * 4 - 6;  // 8 * 4 - 6 = 26?
+console.log(x);
+
+// but if
+
+x = y = (3 + 5) * 4 - 6;  // 8 * 4 - 6 = 26?
+console.log(x, y);
+
+// more operators
+ x = x * 2;
+//  is the same as
+x *= 2;
+console.log(x);
+x += 10; 
+console.log(x);
+x++
+//increment
+x--
+//decrement
