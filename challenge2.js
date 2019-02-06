@@ -41,9 +41,12 @@ console.log('maryaverage is ' + maryaverage);
         winner = 'mike';
         console.log('ranked winner is ' + winner + ' with an avg score of '+ mikeaverage);
     }
-    else {
+    else if (maryaverage > mikeaverage && maryaverage > johnaverage) {
         winner = 'mary';
         console.log('ranked winner is ' + winner + ' with an avg score of '+ maryaverage);
+    }
+    else {
+        console.log('tie')
     }
 
 // switch ( winner ) {
