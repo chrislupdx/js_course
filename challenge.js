@@ -12,14 +12,16 @@ Mark and John are trying to compare their BMI (Body Mass Index), which is calcul
 
 */
 
-const markheight = 125; 
-const markweight = 77;
+// const markheight = 125; 
+// const markweight = 77;
 
-const johnheight = 1211;
-const johnweight = 121131;
+// const johnheight = 1211;
+// const johnweight = 121131;
 
-markBMI = markweight / (markheight * markheight);
-console.log("markBMI is " + markBMI);
+// markBMI = markweight / (markheight * markheight);
+// console.log("markBMI is " + markBMI);
 
-johnBMI = johnweight / (johnheight * johnheight );
-console.log("johnBMI is " + johnBMI);
+// johnBMI = johnweight / (johnheight * johnheight );
+// console.log("johnBMI is " + johnBMI);
+
+

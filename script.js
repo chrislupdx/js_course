@@ -73,39 +73,91 @@
  * operator precedence
  */
 
- var now = 2019;
- var yearJohn = 1922;
- var fullAge = 18;
+//  var now = 2019;
+//  var yearJohn = 1922;
+//  var fullAge = 18;
 
-//  initial guess is PEMDAS then comparisons go off
- var isFullAge = now - yearJohn >= fullAge;
-console.log(isFullAge);
+// //  initial guess is PEMDAS then comparisons go off
+//  var isFullAge = now - yearJohn >= fullAge;
+// console.log(isFullAge);
 
-var ageJohn = now - yearJohn;
-var ageMark = 4;
-var average = (ageJohn + ageMark ) / 2;
-console.log(average)
+// var ageJohn = now - yearJohn;
+// var ageMark = 4;
+// var average = (ageJohn + ageMark ) / 2;
+// console.log(average)
 
 
-// Multiple assignment
+// // Multiple assignment
 
-var x, y;
-x = (3 + 5) * 4 - 6;  // 8 * 4 - 6 = 26?
-console.log(x);
+// var x, y;
+// x = (3 + 5) * 4 - 6;  // 8 * 4 - 6 = 26?
+// console.log(x);
 
-// but if
+// // but if
 
-x = y = (3 + 5) * 4 - 6;  // 8 * 4 - 6 = 26?
-console.log(x, y);
+// x = y = (3 + 5) * 4 - 6;  // 8 * 4 - 6 = 26?
+// console.log(x, y);
 
-// more operators
- x = x * 2;
-//  is the same as
-x *= 2;
-console.log(x);
-x += 10; 
-console.log(x);
-x++
-//increment
-x--
-//decrement
+// // more operators
+//  x = x * 2;
+// //  is the same as
+// x *= 2;
+// console.log(x);
+// x += 10; 
+// console.log(x);
+// x++
+// //increment
+// x--
+// //decrement
+
+/****************************
+ * If /else statements
+ */
+// var firstName = "john";
+// var civilStatus = "single";
+
+// if (civilStatus === "married") {
+//     console.log(firstName + " is married");
+// } else {
+//     console.log(firstName + " will hopefully marry soon ")
+// }
+
+// var isMarried = true;
+// if (isMarried) {
+//     console.log(firstName + " is married");
+// } else {
+//     console.log(firstName + " will hopefully marry soon ")
+// }
+
+// const markheight = 125; 
+// const markweight = 77;
+
+// const johnheight = 1211;
+// const johnweight = 121131;
+
+// markBMI = markweight / (markheight * markheight);
+// console.log("markBMI is " + markBMI);
+
+// johnBMI = johnweight / (johnheight * johnheight );
+// console.log("johnBMI is " + johnBMI);
+
+// if (markBMI > johnBMI) {
+//     console.log('Mark\' BMI is higher than JOHn\'s.');
+// } else {
+//     console.log('John\' BMI is higher than Mark\'s.');
+// }
+
+/******
+ * boolean logic
+ */
+var firstName = 'John';
+var age = 16;
+
+if (ave < 13) {
+    console.log(firstName + 'is a boy');
+} else if (age >= 13 && age < 20){
+    //between 13 and 20 ===age >=13 and age <20
+
+} else {
+    console.log(firstName + 'is a man');
+}
