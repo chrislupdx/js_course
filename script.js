@@ -166,15 +166,15 @@
  * Ternary Operators and Switch statements
  */
 
- let firstName = 'Nope';
- let age = 11111;
+//  let firstName = 'Nope';
+//  let age = 11111;
 
- //Ternary operators
- age >= 18 ? console.log(firstName + ' is 19')
- :console.log(firstName + ' is old')
+//  //Ternary operators
+//  age >= 18 ? console.log(firstName + ' is 19')
+//  :console.log(firstName + ' is old')
 
- var drink = age >= 18 ? 'beer' : 'juice';
- console.log(drink)
+//  var drink = age >= 18 ? 'beer' : 'juice';
+//  console.log(drink)
 
  //written in elifs
 // if (age >= 18) {
@@ -185,42 +185,56 @@
 // }
 
 //Switch statements
-var job = 'monster';
-switch ( job) {
-    case 'monster':
-    case 'teacher':
-        console.log(firstName + ' teaches children');
-        break;
-    case 'driver':
-        console.log(firstName + ' drives an uber in Lisbn');
-        break;
-    case 'designer':
-        console.log(firstName + ' does nothing');
-        break;
-    default:
-        console.log(firstName + ' does something');
-    }
+// var job = 'monster';
+// switch ( job) {
+//     case 'monster':
+//     case 'teacher':
+//         console.log(firstName + ' teaches children');
+//         break;
+//     case 'driver':
+//         console.log(firstName + ' drives an uber in Lisbn');
+//         break;
+//     case 'designer':
+//         console.log(firstName + ' does nothing');
+//         break;
+//     default:
+//         console.log(firstName + ' does something');
+//     }
 
-    switch (true) {
-        case age < 13:
-            console.log(firstName +' is a bk');
-            break;
-        case age > 13 && age < 20:
-            console.log(firstName +  'isteen');
-            break;
-        default:
-            console.log(firstName + ' is w/e');
+//     switch (true) {
+//         case age < 13:
+//             console.log(firstName +' is a bk');
+//             break;
+//         case age > 13 && age < 20:
+//             console.log(firstName +  'isteen');
+//             break;
+//         default:
+//             console.log(firstName + ' is w/e');
 
-    }
+//     }
 
-    // var firstName = 'John';
-    // var age = 16;
-    
-    // if (ave < 13) {
-    //     console.log(firstName + 'is a boy');
-    // } else if (age >= 13 && age < 20){
-    //     //between 13 and 20 ===age >=13 and age <20
-    
-    // } else {
-    //     console.log(firstName + 'is a man');
-    // }
+/**************************
+ * Truthy and Falsy value and equality operators
+ */ 
+
+ // falsy values: undefined, null, 0, '', Nan
+ // truthy values: NOT falsey values
+
+//don't forget that zero is weird and we have to account for it once in a while
+//  var height = 23;
+//  height = 23;
+
+//  if (height || height === 0 ) {
+//      console.log('defined');
+//  }
+//  else {
+//      console.log('undefined');
+//  }
+ 
+ // equality operators
+
+//  if (height == '23') {
+//      console.log ('the == operator does type cooercion');
+//  }
+// type cooercion (==) will convert a string to a number val
+// (===) will see that a string != number 
